@@ -21,10 +21,7 @@ def step_impl(context):
     """
     :type context: behave.runner.Context
     """
-    raise NotImplementedError(u'STEP: When 我填入必填欄位進行註冊
-                              | locator | type | value |
-                              | Input_Email | textbox | parker @ avengers.gov |
-                              | Input_Password | password | \'avengers#329\'      |')
+    raise NotImplementedError(u'STEP: When 我填入必填欄位進行註冊')
 
 
 @then("註冊成功後網站登入狀態顯示為'parker@avengers\.gov'")
